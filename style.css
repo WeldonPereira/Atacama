@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:wght@800&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.globo{
+    font-size: 3rem;
+    margin-left: 5rem;
+    color: #fff;
+    transition: 0.5s;
+}
+nav{
+    margin-right: 5rem;
+}
+nav ul{
+    display: flex;
+}
+
+nav a{
+    font-size: 1.1rem;
+    margin: 1.8rem;
+    color: #fff;
+}
+
+.home{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("img/background.jpg");
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 3rem 2rem 5rem;
+}
+
+.padrao{
+    width: 80%;
+}
+.home h1{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.home p{
+    color: #fff;
+    font-size: 1.1rem;
+    width: 600px;
+}
+
+.padrao button{
+    cursor: pointer;
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: .2s ease-in-out;
+}
+
+.padrao button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px #fff solid;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/lago.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card1{
+    background-image: url(img/lago.jpg);
+}
+
+.card2{
+    background-image: url(img/laguna.jpg);
+}
+
+.card3{
+    background-image: url(img/sky.jpg);
+}
+
+.card4{
+    background-image: url(img/tour.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+nav a:hover{
+    color: rgb(199, 190, 177);
+}
+
+.globo:hover{
+    cursor: pointer;
+    color: aqua;
+    transform: translateY(5px);
+}
+
+/* Segunda parte do site */
+
+.sobre{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.2)), url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.texto{
+    padding: 10px 15px;
+    color: #fff;
+    width: 800px;
+    font-size: 0.9rem;
+}
+
+.card5{
+    width: 400px;
+    background-image: url(img/relevo.jpg);
+}
+
+.regiao{
+    background-image: linear-gradient(rgba(0, 0, 0, 1.2), rgba(0, 0, 0, 0.6)), url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regiao iframe{
+    margin-top: 2rem;
+    width: 850px;
+    height: 560px;
+}
